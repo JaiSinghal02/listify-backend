@@ -5,7 +5,7 @@ const connect = require('./controller/connect/connect')
 const cors = require('cors')
 
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://jaisinghal02.github.io',
 }
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
